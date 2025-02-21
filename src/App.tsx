@@ -69,7 +69,7 @@ function App() {
       <div className="whole-drum">
         
           {audioClips.map((clip) => (
-            <Drum key={audioClips.keyTrigger} audioClip={clip} />
+            <Drum key={clip.keyTrigger} audioClip={clip} />
           ))}
         
         
